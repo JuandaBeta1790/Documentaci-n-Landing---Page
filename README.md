@@ -41,23 +41,25 @@ cd tu-repositorio
 
 ## Ejecuta el servidor de desarrollo:
 
-npm run dev
+### npm run dev
 Esto debería iniciar el servidor de desarrollo, y podrás ver la página en http://localhost:3000.
 
-Estructura del Proyecto
+## Estructura del Proyecto
 A continuación se describe la estructura básica del proyecto:
 
-bash
-Copy code
+
 /src
-  /components      # Componentes de la interfaz de usuario (React/Angular)
-  /pages           # Páginas estáticas y dinámicas de Astro
-  /assets          # Archivos estáticos como imágenes, fuentes, etc.
-  /styles          # Archivos de estilo, incluyendo configuraciones de Tailwind CSS
-  /scripts         # Lógica y scripts JavaScript o TypeScript
-/tailwind.config.js # Configuración de Tailwind CSS
-/package.json      # Configuración de dependencias y scripts del proyecto
-Configuración de Tailwind CSS
+  /components         # Componentes de la interfaz de usuario (React/Angular)
+  /pages              # Páginas estáticas y dinámicas de Astro
+  /assets             # Archivos estáticos como imágenes, fuentes, etc.
+        /sections     # Secciones de la pagina
+  /styles             # Archivos de estilo, incluyendo configuraciones de Tailwind CSS
+  /scripts            # Lógica y scripts JavaScript o TypeScript
+/tailwind.config.js   # Configuración de Tailwind CSS
+/package.json         # Configuración de dependencias y scripts del proyecto
+
+
+## Configuración de Tailwind CSS
 Este proyecto utiliza Tailwind CSS para el diseño de la página. La configuración de Tailwind está personalizada para adaptarse a las necesidades del proyecto.
 
 Colores personalizados: Se han definido paletas de colores para los diferentes estados de la página (modo claro y oscuro).

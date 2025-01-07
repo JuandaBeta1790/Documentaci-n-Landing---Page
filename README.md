@@ -48,27 +48,27 @@ Esto debería iniciar el servidor de desarrollo, y podrás ver la página en htt
 A continuación se describe la estructura básica del proyecto:
 
 
-  ** /environment
+  ## /environment
     /assets           # Carpeta para guardar imágenes específicas de la sección de Impacto Ambiental
     - data.ts          # Información para la sección ambiental
     - EnvironmentalImpact.astro  # Componente para mostrar el impacto ambiental
 
-  /featured
+  ## /featured
     /assets           # Carpeta para guardar imágenes específicas de la sección de Proyectos Destacados
     /components
       - FeaturedProject.astro  # Componente para mostrar un proyecto destacado
     - data.ts           # Información para la sección de proyectos destacados
     - FeaturedProjects.Astro  # Manejo de las características de los proyectos destacados
 
-  /hero
+ ## /hero
     /assets           # Carpeta para guardar imágenes de la sección Hero
     - Hero.astro       # Componente para mostrar el contenido principal de la página (Hero)
 
-  /innovations
+  ## /innovations
     /assets           # Carpeta para guardar imágenes relacionadas con las innovaciones
     - LatestInnovations.astro  # Componente para mostrar las últimas innovaciones
 
-  /services
+ ## /services
     /assets           # Carpeta para guardar imágenes relacionadas con los servicios
     /components
       - ServiceCard.astro   # Componente de tarjeta para mostrar servicios
@@ -76,12 +76,12 @@ A continuación se describe la estructura básica del proyecto:
     - data.ts           # Información para la sección de servicios
     - KeyServices.Astro   # Componente para mostrar los servicios clave
 
-  /testimonials
+  ## /testimonials
     /assets           # Carpeta para guardar imágenes relacionadas con los testimonios
     /components
       - Testimonial.astro  # Componente para mostrar los testimonios de los clientes
 
-  /shared
+ ## /shared
     /assets           # Carpeta común para guardar imágenes reutilizables
     - BtnLink.astro    # Componente de botón de enlace
     - BtnThemeSwitch.astro   # Componente para cambiar el tema
@@ -103,7 +103,7 @@ A continuación se describe la estructura básica del proyecto:
     - Title3.astro       # Otra variante de título
     - Title4.astro       # Otra variante de título
 
-  /layouts
+ ## /layouts
     /assets           # Carpeta para guardar imágenes utilizadas en los layouts
     - Footer.astro     # Componente para el pie de página
     - Layout.astro     # Componente para el layout base de la página

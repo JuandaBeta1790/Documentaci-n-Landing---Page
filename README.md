@@ -44,11 +44,12 @@ cd tu-repositorio
 ### npm run dev
 Esto debería iniciar el servidor de desarrollo, y podrás ver la página en http://localhost:3000.
 
-## Estructura del Proyecto
+# Estructura del Proyecto
 A continuación se describe la estructura básica del proyecto:
 
+## Estructura de Carpetas y Archivos
 
-  /environment
+   /environment
     /assets           # Carpeta para guardar imágenes específicas de la sección de Impacto Ambiental
     - data.ts          # Información para la sección ambiental
     - EnvironmentalImpact.astro  # Componente para mostrar el impacto ambiental
@@ -108,7 +109,6 @@ A continuación se describe la estructura básica del proyecto:
     - Footer.astro     # Componente para el pie de página
     - Layout.astro     # Componente para el layout base de la página
     - Navbar.astro     # Componente para la barra de navegación
-
 
 
 

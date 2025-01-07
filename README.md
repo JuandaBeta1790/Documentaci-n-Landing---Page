@@ -125,9 +125,9 @@ A continuación se describe la estructura básica del proyecto:
 ## Configuración de Tailwind CSS
 En este archivo se encuentra la configuracion de los colores como: accent, primary, secondary, complementary1 y complementary2 entre otros. Tambien esta la configuracion del tamaño de las pantallas y la fuente
 
-### Colores personalizados: Se han definido paletas de colores para los diferentes estados de la página (modo claro y oscuro).
-### Breakpoints personalizados: Los puntos de ruptura están configurados para adaptarse a varios tamaños de pantalla, desde dispositivos móviles hasta pantallas de escritorio HD.
-### Sombras y fuentes personalizadas: Se han agregado sombras y se ha seleccionado la fuente Raleway como la predeterminada.
+#### Colores personalizados: Se han definido paletas de colores para los diferentes estados de la página (modo claro y oscuro).
+#### Breakpoints personalizados: Los puntos de ruptura están configurados para adaptarse a varios tamaños de pantalla, desde dispositivos móviles hasta pantallas de escritorio HD.
+#### Sombras y fuentes personalizadas: Se han agregado sombras y se ha seleccionado la fuente Raleway como la predeterminada.
 
 
 ## Personalización de Tailwind

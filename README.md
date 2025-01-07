@@ -27,23 +27,20 @@ Descargar Node.js (Se recomienda la versión LTS).
 El gestor de paquetes de Node.js (debería instalarse automáticamente con Node.js).
 
 ## Pasos para instalar
+
 ### Clona el repositorio:
 
+git clone https://github.com/JuandaBeta1790/Landing-Page
 
-
-git clone https://github.com/tu-usuario/tu-repositorio.git
-Navega al directorio del proyecto:
-
+## Navega al directorio del proyecto:
 
 cd tu-repositorio
-Instala las dependencias del proyecto:
 
+## Instala las dependencias del proyecto:
+### npm install
 
-npm install
-Ejecuta el servidor de desarrollo:
+## Ejecuta el servidor de desarrollo:
 
-bash
-Copy code
 npm run dev
 Esto debería iniciar el servidor de desarrollo, y podrás ver la página en http://localhost:3000.
 

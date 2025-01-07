@@ -48,15 +48,67 @@ Esto debería iniciar el servidor de desarrollo, y podrás ver la página en htt
 A continuación se describe la estructura básica del proyecto:
 
 
-/src
-  /components         # Componentes de la interfaz de usuario (React/Angular)
-  /pages              # Páginas estáticas y dinámicas de Astro
-    /sections         # Secciones de la página (por ejemplo, header, footer, etc.)
-      /assets          # Archivos estáticos como imágenes, fuentes, etc.
-  /styles             # Archivos de estilo, incluyendo configuraciones de Tailwind CSS
-  /scripts            # Lógica y scripts JavaScript o TypeScript
-/tailwind.config.js   # Configuración de Tailwind CSS
-/package.json         # Configuración de dependencias y scripts del proyecto
+  /environment
+    /assets           # Carpeta para guardar imágenes específicas de la sección de Impacto Ambiental
+    - data.ts          # Información para la sección ambiental
+    - EnvironmentalImpact.astro  # Componente para mostrar el impacto ambiental
+
+  /featured
+    /assets           # Carpeta para guardar imágenes específicas de la sección de Proyectos Destacados
+    /components
+      - FeaturedProject.astro  # Componente para mostrar un proyecto destacado
+    - data.ts           # Información para la sección de proyectos destacados
+    - FeaturedProjects.Astro  # Manejo de las características de los proyectos destacados
+
+  /hero
+    /assets           # Carpeta para guardar imágenes de la sección Hero
+    - Hero.astro       # Componente para mostrar el contenido principal de la página (Hero)
+
+  /innovations
+    /assets           # Carpeta para guardar imágenes relacionadas con las innovaciones
+    - LatestInnovations.astro  # Componente para mostrar las últimas innovaciones
+
+  /services
+    /assets           # Carpeta para guardar imágenes relacionadas con los servicios
+    /components
+      - ServiceCard.astro   # Componente de tarjeta para mostrar servicios
+      - ServiceCopyTextCard.astro   # Componente para mostrar texto adicional de servicio
+    - data.ts           # Información para la sección de servicios
+    - KeyServices.Astro   # Componente para mostrar los servicios clave
+
+  /testimonials
+    /assets           # Carpeta para guardar imágenes relacionadas con los testimonios
+    /components
+      - Testimonial.astro  # Componente para mostrar los testimonios de los clientes
+
+  /shared
+    /assets           # Carpeta común para guardar imágenes reutilizables
+    - BtnLink.astro    # Componente de botón de enlace
+    - BtnThemeSwitch.astro   # Componente para cambiar el tema
+    - Button.astro      # Componente de botón genérico
+    - Container.astro    # Componente para contenedor general
+    - Correos.astro     # Componente para mostrar correos electrónicos
+    - CtaButton.astro   # Botón específico para llamada a la acción
+    - FooterNav.astro   # Componente de navegación en el pie de página
+    - GradiantText.astro  # Componente para texto con gradiente
+    - HoverImage.astro   # Componente para imagen con efecto hover
+    - LazyImage.astro    # Componente para imagen con carga diferida
+    - Navitem.astro      # Componente de ítem de navegación
+    - Paragraph.astro    # Componente para párrafos
+    - SubTitle.astro     # Componente para subtítulos
+    - SubTitle2.astro    # Variante de subtítulo
+    - SubTitle3.astro    # Otra variante de subtítulo
+    - Title.astro        # Componente para título principal
+    - Title2.astro       # Variante de título
+    - Title3.astro       # Otra variante de título
+    - Title4.astro       # Otra variante de título
+
+  /layouts
+    /assets           # Carpeta para guardar imágenes utilizadas en los layouts
+    - Footer.astro     # Componente para el pie de página
+    - Layout.astro     # Componente para el layout base de la página
+    - Navbar.astro     # Componente para la barra de navegación
+
 
 
 

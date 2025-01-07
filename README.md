@@ -133,8 +133,7 @@ En este archivo se encuentra la configuracion de los colores como: accent, prima
 ## Personalización de Tailwind
     Si deseas cambiar los colores, fuentes o tamaños de pantalla, modifica las secciones correspondientes en el archivo tailwind.config.js. Por ejemplo, para cambiar los colores de la paleta primaria:
 
-     js
-    Copy code
+    
     primary: {
         50: "#f1fcf1",
         100: "#e0f9df",

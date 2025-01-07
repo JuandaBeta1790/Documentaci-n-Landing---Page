@@ -47,38 +47,37 @@ Esto debería iniciar el servidor de desarrollo, y podrás ver la página en htt
 # Estructura del Proyecto
 A continuación se describe la estructura básica del proyecto:
 
-## Nuestro Equipo
-/cta
+## /cta --- Nuestro Equipo
       /assets      	--- Carpeta para guardar imágenes de la seccion
 			/components
-				EmailForm.astro --- Datos  del formulario (Desactivado) 
-				InvolvementCard.astro --- Configuracion del formulario (Desactivado) 
+			  -EmailForm.astro --- Datos  del formulario (Desactivado) 
+			  -InvolvementCard.astro --- Configuracion del formulario (Desactivado) 
 			data.ts      	--- información a mostrar en la seccion
 			GetInvolved.Astro --- Manejo de las características de la seccion
    
-## Impacto Ambiental de Telemetrik   
-/environment
+  
+## /environment --- Impacto Ambiental de Telemetrik 
     /assets           # Carpeta para guardar imágenes específicas de la sección de Impacto Ambiental
     - data.ts          # Información para la sección ambiental
     - EnvironmentalImpact.astro  # Componente para mostrar el impacto ambiental
 
-## Nuestra Tecnología
-/featured
+
+## /featured --- Nuestra Tecnología
     /assets           # Carpeta para guardar imágenes específicas de la sección de Proyectos Destacados
     /components
       - FeaturedProject.astro  # Componente para mostrar un proyecto destacado
     - data.ts           # Información para la sección de proyectos destacados
-    - FeaturedProjects.Astro  # Manejo de las características de los proyectos destacados
+    - FeaturedProjects.Astro  
 
- /hero
+ ## /hero --- POr qué? parte inicial de la pagina
     /assets           # Carpeta para guardar imágenes de la sección Hero
-    - Hero.astro       # Componente para mostrar el contenido principal de la página (Hero)
-
-  /innovations
+    - Hero.astro       
+    - data.ts
+ ## /innovations --- Casos de éxito
     /assets           # Carpeta para guardar imágenes relacionadas con las innovaciones
     - LatestInnovations.astro  # Componente para mostrar las últimas innovaciones
 
- /services
+ ## /services --- Telemetrik + AWS
     /assets           # Carpeta para guardar imágenes relacionadas con los servicios
     /components
       - ServiceCard.astro   # Componente de tarjeta para mostrar servicios
@@ -86,12 +85,12 @@ A continuación se describe la estructura básica del proyecto:
     - data.ts           # Información para la sección de servicios
     - KeyServices.Astro   # Componente para mostrar los servicios clave
 
-  /testimonials
+  ## /testimonials --- Nuestros Clientes
     /assets           # Carpeta para guardar imágenes relacionadas con los testimonios
     /components
       - Testimonial.astro  # Componente para mostrar los testimonios de los clientes
 
- /shared
+ ## /shared -- En esta parte se encuentra el comportamiento de titulos, subtitulos, parrafos, botones etc..
     /assets           # Carpeta común para guardar imágenes reutilizables
     - BtnLink.astro    # Componente de botón de enlace
     - BtnThemeSwitch.astro   # Componente para cambiar el tema
@@ -113,10 +112,10 @@ A continuación se describe la estructura básica del proyecto:
     - Title3.astro       # Otra variante de título
     - Title4.astro       # Otra variante de título
 
- /layouts
+ ## /layouts Pie de pagina, barra de navegacion y tema
     /assets           # Carpeta para guardar imágenes utilizadas en los layouts
     - Footer.astro     # Componente para el pie de página
-    - Layout.astro     # Componente para el layout base de la página
+    - Layout.astro     # Componente para el cambio de color de la pagina, oscuro o claro
     - Navbar.astro     # Componente para la barra de navegación
 
 

@@ -48,12 +48,12 @@ Esto debería iniciar el servidor de desarrollo, y podrás ver la página en htt
 A continuación se describe la estructura básica del proyecto:
 
 ## /cta --- Nuestro Equipo
-      /assets      	--- Carpeta para guardar imágenes de la seccion
-			/components
-			  -EmailForm.astro --- Datos  del formulario (Desactivado) 
-			  -InvolvementCard.astro --- Configuracion del formulario (Desactivado) 
-			data.ts      	--- información a mostrar en la seccion
-			GetInvolved.Astro --- Manejo de las características de la seccion
+    /assets      	--- Carpeta para guardar imágenes de la seccion
+    /components
+       - EmailForm.astro --- Datos  del formulario (Desactivado) 
+       - InvolvementCard.astro --- Configuracion del formulario (Desactivado) 
+     - data.ts      	--- información a mostrar en la seccion
+     - GetInvolved.Astro --- Manejo de las características de la seccion
    
   
 ## /environment --- Impacto Ambiental de Telemetrik 
@@ -69,7 +69,7 @@ A continuación se describe la estructura básica del proyecto:
     - data.ts           # Información para la sección de proyectos destacados
     - FeaturedProjects.Astro  
 
- ## /hero --- POr qué? parte inicial de la pagina
+ ## /hero --- Por qué? parte inicial de la pagina
     /assets           # Carpeta para guardar imágenes de la sección Hero
     - Hero.astro       
     - data.ts
@@ -118,10 +118,12 @@ A continuación se describe la estructura básica del proyecto:
     - Layout.astro     # Componente para el cambio de color de la pagina, oscuro o claro
     - Navbar.astro     # Componente para la barra de navegación
 
-
+## Otros archivos importantes
+    astro.config.mjs  --- Archivo de configuracion necesario para GitHub
+    Tailwind.config.mjs
 
 ## Configuración de Tailwind CSS
-Este proyecto utiliza Tailwind CSS para el diseño de la página. La configuración de Tailwind está personalizada para adaptarse a las necesidades del proyecto.
+En este archivo se encuentra la configuracion de los colores como: accent, primary, secondary, complementary1 y complementary2 entre otros. Tambien esta la configuracion del tamaño de las pantallas y la fuente
 
 Colores personalizados: Se han definido paletas de colores para los diferentes estados de la página (modo claro y oscuro).
 Breakpoints personalizados: Los puntos de ruptura están configurados para adaptarse a varios tamaños de pantalla, desde dispositivos móviles hasta pantallas de escritorio HD.

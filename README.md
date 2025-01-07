@@ -51,12 +51,13 @@ A continuación se describe la estructura básica del proyecto:
 /src
   /components         # Componentes de la interfaz de usuario (React/Angular)
   /pages              # Páginas estáticas y dinámicas de Astro
-  /assets             # Archivos estáticos como imágenes, fuentes, etc.
-        /sections     # Secciones de la pagina
+    /sections         # Secciones de la página (por ejemplo, header, footer, etc.)
+      /assets          # Archivos estáticos como imágenes, fuentes, etc.
   /styles             # Archivos de estilo, incluyendo configuraciones de Tailwind CSS
   /scripts            # Lógica y scripts JavaScript o TypeScript
 /tailwind.config.js   # Configuración de Tailwind CSS
 /package.json         # Configuración de dependencias y scripts del proyecto
+
 
 
 ## Configuración de Tailwind CSS
